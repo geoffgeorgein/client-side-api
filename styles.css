@@ -1,5 +1,5 @@
 html {
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 body {
@@ -24,7 +24,7 @@ main {
 
 header,
 footer {
-    background: cyan;
+    background: rgb(168, 206, 206);
     padding: 20px;
     border: 1px solid black;
 }
@@ -39,6 +39,20 @@ form {
     font-size: 0.8rem;
 }
 
-.personal-greeting {
+.message{
     font-weight: bold;
+}
+#submitname{
+    padding: 3px;
+    border: none;
+    border-radius: 2px;
+    background-color: slateblue;
+    color: white;
+}
+#forgetname{
+    padding: 3px;
+    border: none;
+    border-radius: 2px;
+    background-color: slateblue;
+    color: white;
 }
