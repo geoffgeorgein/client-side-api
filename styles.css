@@ -12,7 +12,7 @@ body {
 }
 section{
     width: 100%;
-    max-width: 800px;
+    max-width: 900px;
     padding: 10px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -43,16 +43,24 @@ form {
     font-weight: bold;
 }
 #submitname{
-    padding: 3px;
+    padding: 4px 5px;
     border: none;
-    border-radius: 2px;
+    border-radius: 4px;
     background-color: slateblue;
     color: white;
+    cursor: pointer;
 }
 #forgetname{
-    padding: 3px;
+    padding: 4px 5px;
     border: none;
-    border-radius: 2px;
+    border-radius: 4px;
     background-color: slateblue;
     color: white;
+    cursor: pointer;
+}
+#entername{
+    padding: 4px 2px;
+    border: none;
+    border-radius: 4px;
+    
 }
